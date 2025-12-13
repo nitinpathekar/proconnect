@@ -18,7 +18,7 @@ app.use(userRoutes)
 const start = async () => {
     
         await mongoose.connect(
-            "mongodb+srv://ayushhs2005:Indore%40123@proconnect.qydcbfi.mongodb.net/proconnect?retryWrites=true&w=majority"
+            "mongodb+srv://@proconnect.qydcbfi.mongodb.net/proconnect?retryWrites=true&w=majority"
         );
 
         console.log("MongoDB Connected Successfully");
